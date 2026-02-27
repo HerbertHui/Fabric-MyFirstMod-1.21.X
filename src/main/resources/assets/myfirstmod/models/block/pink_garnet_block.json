@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "myfirstmod:block/pink_garnet_block"
+  }
+}
