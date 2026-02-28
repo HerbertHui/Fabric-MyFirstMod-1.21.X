@@ -18,6 +18,12 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool()));
+
+    // 1. Create a new block here first!
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -34,6 +40,12 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+
+            // 2. Remember to add block here secondly!
+            // 3. Add translation in en_us.json
+            // 4. Copy & paste and modify the json file under /blockstates/ and /models/block/ and /models/item/
+            // 5. Finally, remember to add texture under textures/block
         });
     }
 }
