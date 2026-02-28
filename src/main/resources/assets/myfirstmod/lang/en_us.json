@@ -14,5 +14,15 @@
   "block.myfirstmod.magic_block": "Magic Block",
 
   "itemgroup.myfirstmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.myfirstmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.myfirstmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.myfirstmod.magic_block.tooltip": "This block comes from the best idea §bHerbert§r had eeeeeever thought before!",
+  "tooltip.myfirstmod.magic_block.tooltip.2": "---By §bHerbert§r",
+
+  "tooltip.myfirstmod.chisel.shift_down": "This chisel can turn stone to gold!! It's fantastic, isn't it??!",
+  "tooltip.myfirstmod.chisel": "Press §eshift§r for more Information!",
+
+  "tooltip.myfirstmod.cauliflower.tooltip": "This is fantastic dellllllicious!!!",
+
+  "tooltip.myfirstmod.pink_garnet_block.tooltip": "It's shiny, isn't it?"
 }
