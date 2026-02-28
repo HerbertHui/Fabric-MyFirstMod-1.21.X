@@ -1,6 +1,7 @@
 package net.herbert.myfirstmod.block.custom;
 
 import net.herbert.myfirstmod.item.ModItems;
+import net.herbert.myfirstmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -34,12 +35,16 @@ public class MagicBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getStack().getItem() == Items.COBBLESTONE) {
-                itemEntity.setStack(new ItemStack(Items.GOLD_INGOT, itemEntity.getStack().getCount()));
+            if(isValidItem(itemEntity.getStack())) {
+                itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
 
