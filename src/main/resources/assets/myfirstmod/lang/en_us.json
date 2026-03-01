@@ -13,6 +13,21 @@
 
   "block.myfirstmod.magic_block": "Magic Block",
 
+  "block.myfirstmod.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.myfirstmod.pink_garnet_slab": "Pink Garnet Slab",
+
+  "block.myfirstmod.pink_garnet_button": "Pink Garnet Button",
+  "block.myfirstmod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+
+  "block.myfirstmod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.myfirstmod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.myfirstmod.pink_garnet_wall": "Pink Garnet Wall",
+
+  "block.myfirstmod.pink_garnet_door": "Pink Garnet Door",
+  "block.myfirstmod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+
+
+
   "itemgroup.myfirstmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.myfirstmod.pink_garnet_blocks": "Pink Garnet Blocks",
 
