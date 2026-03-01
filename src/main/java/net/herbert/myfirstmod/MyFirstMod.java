@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.herbert.myfirstmod.block.ModBlocks;
+import net.herbert.myfirstmod.component.ModDataComponentTypes;
 import net.herbert.myfirstmod.item.ModItemGroups;
 import net.herbert.myfirstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class MyFirstMod implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        ModDataComponentTypes.registerDataComponentTypes();
 
         FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); // Refer to the fuelTime in AbstractFurnaceBlockEntity.java
 	}
