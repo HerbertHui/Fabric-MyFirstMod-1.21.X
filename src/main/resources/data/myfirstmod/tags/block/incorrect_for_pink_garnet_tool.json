@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ],
+  "remove": [
+    "#myfirstmod:needs_pink_garnet_tool"
+  ]
+}

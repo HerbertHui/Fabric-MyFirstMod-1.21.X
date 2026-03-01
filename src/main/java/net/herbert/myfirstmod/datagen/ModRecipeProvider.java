@@ -49,5 +49,4 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, Identifier.of(MyFirstMod.MOD_ID, "raw_pink_garnet_from_magic_block"));
 
     }
-
 }
